@@ -20,7 +20,7 @@ int main(void) {
     }
     hexcode[7] = '\0';
 
-    printf("The hex is %s\n", hexcode);
+    printf("The hex code is %s\n", hexcode);
 
     return 0;
 }
