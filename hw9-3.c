@@ -14,7 +14,7 @@ int main(void) {
     printf("The first matrix you entered is\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 3; j++) {
-            printf("%f ", matrix1[i][j]);
+            printf("%g ", matrix1[i][j]);
         }
         printf("\n");
     }
@@ -22,7 +22,7 @@ int main(void) {
     printf("The second matrix you entered is\n");
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 2; j++) {
-            printf("%f ", matrix2[i][j]);
+            printf("%g ", matrix2[i][j]);
         }
         printf("\n");
     }
@@ -35,7 +35,7 @@ int main(void) {
             for (int k = 0; k < 3; k++) {
                 sum += matrix1[i][k] * matrix2[k][j];
             }
-            printf("%.2f ", sum);
+            printf("%g ", sum);
         }
         printf("\n");
     }
