@@ -28,7 +28,7 @@ int main(void) {
     }
 
 
-    printf("The multiplication product of matrix A and B is\n");
+    printf("The multiplication product of matrix A and matrix B:\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
             float sum = 0;
