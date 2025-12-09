@@ -22,6 +22,7 @@ int main(void) {
         }
     }
 
+    printf("sorted array:\n")
     for (int i = 0; i < 5; i++) {
         printf("%d ", sorted[i]);
     }
